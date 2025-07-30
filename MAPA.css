@@ -1,0 +1,91 @@
+img {
+    border: 5px, solid;
+    border-radius: 35%;
+    position: relative;
+}
+
+body {
+    background: linear-gradient(to right, white, black);
+    overflow-x: hidden;
+}
+@media (max-width: 768px) {
+.Navegacao {
+    ul {
+  list-style: none;
+  display: flex;
+  background: linear-gradient(to right, black, white);
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+ul li {
+  padding: 10px 95px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+}
+
+.right{
+    color: black;
+}
+
+}
+
+.Perfil {
+    position: relative;
+    left: 45%;
+}
+
+.Perfil p {
+    position: relative;
+    right: 2.5%;
+    font-style: oblique;
+    font-size: larger;
+}
+
+.Perfil h3 {
+    position: relative;
+    left: 1.5%;
+    font-size: larger;
+}
+
+
+section {
+    margin-bottom: 5%;
+}
+
+article {
+   background: linear-gradient(to right, white, black);
+   background: linear-gradient(white, grey) padding-box;
+      border: 5px solid #000000;
+      padding: 15px;
+      border-radius: 20px;
+      margin-top: 15px;
+}
+
+aside {
+    display: flex;
+    background: rgb(54, 54, 54);
+    border: 7px solid rgb(0, 0, 0);
+    padding:10px;
+    border-radius: 20px;
+
+    a{
+      padding: 15px;
+      color:aliceblue;
+}
+
+}
+
+footer {
+  position: relative;
+  left: 65%;
+  color:aliceblue;
+}
